@@ -4,9 +4,9 @@
 
 </div>
 
-- Live Demo: [Live Demo]()
+- Live Demo: [Live Demo](https://lbarnes86.github.io/age-challenge/)
 
-- Repository: [Repository]()
+- Repository: [Repository](https://github.com/lbarnes86/age-challenge)
 
 ## Table of Contents
 
