@@ -4,9 +4,9 @@
 
 </div>
 
-- Live Demo: [Live Demo](https://lbarnes86.github.io/age-challenge/)
+- Live Demo: [Live Demo](https://lbarnes86.github.io/javascript-app/)
 
-- Repository: [Repository](https://github.com/lbarnes86/age-challenge)
+- Repository: [Repository](https://github.com/lbarnes86/javascript-app)
 
 ## Table of Contents
 
