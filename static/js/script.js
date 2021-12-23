@@ -153,3 +153,15 @@ function randomColors() {
         all_buttons[i].classList.add(choices[randomNumber]);
     }
 }
+
+// Challenge 5: Blackjack
+let blackjackGame = {
+    'yourScore': 0,
+    'dealerScore': 0,
+    'isStand': false,
+    'turnsOver': false,
+    'wins': 0,
+    'losses': 0,
+    'draws': 0,
+    'cardsMap': {'2': 2, '3': 3, '4:': 4, '5': 5, }
+}
