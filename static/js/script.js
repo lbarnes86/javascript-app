@@ -100,3 +100,24 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
     document.getElementById('flex-box-rps-div').appendChild(botDiv);
 
 }
+
+// Challenge 4: Change the color of All Buttons
+let all_buttons = document.getElementById('button');
+
+let copyAllButtons = [];
+for (let i=0; i < all_buttons.length; i++) {
+    copyAllButtons.push(all_buttons[i]);
+}
+
+function buttonColorChange(buttonThingy) {
+    if (buttonThingy.value === 'red') {
+        buttonsRed();
+    } else if (buttonThingy.value === 'green') {
+        buttonsGreen();
+    } else if (buttonThingy.value === 'reset') {
+        buttonColorReset();
+    } else if (buttonThingy.value === 'random') {
+        randomColors();
+    }
+}
+
