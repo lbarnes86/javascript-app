@@ -102,12 +102,14 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
 }
 
 // Challenge 4: Change the color of All Buttons
-let all_buttons = document.getElementById('button');
+var all_buttons = document.getElementsByTagName('button');
 
-let copyAllButtons = [];
-for (let i=0; i < all_buttons.length; i++) {
-    copyAllButtons.push(all_buttons[i]);
+var copyAllButtons = [];
+
+for (let i = 0; i < all_buttons.length; i++) {
+  copyAllButtons.push(all_buttons[i].classList[1]);
 }
+
 
 function buttonColorChange(buttonThingy) {
     if (buttonThingy.value === 'red') {
@@ -136,9 +138,18 @@ function buttonsGreen() {
 }
 
 function buttonColorReset() {
-    for (let i = 0; i < all_buttons.length; i++) {
+    for (let i=0; i < all_buttons.length; i++) {
         all_buttons[i].classList.remove(all_buttons[i].classList[1]);
         all_buttons[i].classList.add(copyAllButtons[i]);
       }
 }
 
+function randomColors() {
+    let choices = ['btn-primary', 'btn-danger', 'btn-success', 'btn-warning']
+
+    for (let i=0; i< all_buttons.length; i++) {
+        let randomNumber = Math.floor(Math.random() * 4);
+        all_buttons[i].classList.remove(all_buttons[i].classList[1]);
+        all_buttons[i].classList.add(choices[randomNumber]);
+    }
+}
