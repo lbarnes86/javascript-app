@@ -7,7 +7,7 @@
 
 
 .flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color,  
-.flex-blackjack-row-1, .flex-blackjack-row-2
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3, .flex-ajax-row-1
 {
     display: flex;
     border: 1px solid black;
@@ -35,7 +35,7 @@
 }
 
 .flex-blackjack-row-1, .flex-blackjack-row-2 {
-    background: url('https://user-images.githubusercontent.com/70309736/147215339-8b0508b0-4071-45fc-8fc7-7c4c2d13ece3.png') center;
+    background: url('https://user-images.githubusercontent.com/70309736/147216982-da053fee-8d45-4f90-821b-cb4ab256c6e4.png') center;
     color: #ffffff;
 }
 
@@ -56,3 +56,26 @@
     border: 1px solid black;
     padding: 10px;
 }
+
+.flex-blackjack-row-2 div {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  .container-1, .container-2, .container-3, .container-4, .container-5, .container-6 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .flex-ajax-row-1 img {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+  }
