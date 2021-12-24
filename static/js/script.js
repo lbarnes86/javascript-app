@@ -179,9 +179,9 @@ let blackjackGame = {
   
   document.querySelector('#blackjack-deal-button').addEventListener('click', blackjackDeal);
   
-  const hitSound = new Audio('../sounds/swish.m4a');
-  const winSound = new Audio('../sounds/cash.mp3');
-  const lossSound = new Audio('../sounds/aww.mp3');
+  const hitSound = new Audio('./sounds/swish.m4a');
+  const winSound = new Audio('./sounds/cash.mp3');
+  const lossSound = new Audio('./sounds/aww.mp3');
   
   function blackjackHit() {
     if (blackjackGame['isStand'] === false) {
